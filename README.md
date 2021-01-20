@@ -1,5 +1,5 @@
 # samazon
-Samazon is a repo for me to practice Go on an Amazon/UPS delivery mock project
+Samazon is a repo for me to practice Go on an Amazon/UPS delivery mock project.
 
 The purpose of Samazon is to gain exposure to working more with websockets and practice creating a sort of event stream. The event stream here will be maintaining the driver's route and maintaining the drivers state by updating clients as the driver moves along their route. The event stream will maintain a time ticker and keep record of all stops, potentially dropping previously made stops.
 
