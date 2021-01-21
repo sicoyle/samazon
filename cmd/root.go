@@ -8,6 +8,7 @@ import (
 
 func init() {
 	// Flag definitions for global access throughout application
+	rootCmd.AddCommand(samazonServerCmd)
 }
 
 var rootCmd = &cobra.Command{
