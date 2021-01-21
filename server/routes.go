@@ -3,7 +3,7 @@ package server
 import "net/http"
 
 func (s *Server) routes() {
-	s.Router.Handle("/status", s.handleStatus)
+	s.Router.Handle("/status", s.handleStatus())
 }
 
 // handleStatus returns driver route status information

@@ -24,3 +24,7 @@ func Execute() {
 		os.Exit(1)
 	}
 }
+
+func initRoot(cmd *cobra.Command, args []string) {
+	// initRoot is called before any command gets executed
+}

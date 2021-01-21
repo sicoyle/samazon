@@ -5,12 +5,12 @@ import (
 	"net/http"
 
 	"github.com/rs/zerolog/log"
-	"github.com/samazon/server"
+	"github.com/sicoyle/samazon/server"
 	"github.com/spf13/cobra"
 )
 
 func init() {
-	samazonServerCmd.Flags.Flags().Int("rest-port", 8088, "Change the port the restful service is listening on.")
+	samazonServerCmd.Flags().Int("rest-port", 8088, "Change the port the restful service is listening on.")
 }
 
 // server runs a server that allows for various clients to connect

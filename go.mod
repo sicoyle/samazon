@@ -1,4 +1,4 @@
-module github.com/samazon
+module github.com/sicoyle/samazon
 
 go 1.14
 
